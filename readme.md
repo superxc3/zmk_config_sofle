@@ -6,4 +6,11 @@ This is a quick config key remap for Sofle Zmk.
 | One of our Sofle variant: Sofle Hybrid with Low profile thumb cfx keycap + MX alpha keys Geekark BOW |
 
 1. Use [Keymap Editor](https://nickcoutsos.github.io/keymap-editor/) to remap the keys.
-2. This is for Sofle with encoders and niceview display. 
+2. This is for Sofle with encoders and niceview display.
+
+Add this to `keymap.c` if you have your own repo. This is to enable niceview. 
+```
+&nice_view_spi {
+    cs-gpios = <&pro_micro 0 GPIO_ACTIVE_HIGH>;
+};
+```
