@@ -93,8 +93,35 @@ This is a quick config key remap for Sofle Zmk.
   </tr>
 </table>
 
-<table>
-  <tr style="background-color:grey;">
-    <td>9. Turn on both sides. Double press the reset button twice. Plug in cable on left split, double press the reset button again and a drive will be popped out. Wait until it dropped and ignore any error. Once done transferred, remove the cable and insert cable to right, double press the reset button again and drop in right.uf2.</td>
-  </tr>
-</table>
+
+## Flashing uf2 to split
+You may refer to the [demo](https://drive.google.com/file/d/1_iiBsk6CXnIYhRzzQHDtAJCxdc7E1w-u/view?usp=sharing) for flashing procedure. Details as follow:
+1. Connect left and right splits to your pc (both connect together using type c cable). You also can flash one side each time without using two cables. 
+2. Put right into bootloader mode (press the reset button), one window is popped out showing "nicenano" folder. Dont do anything yet, remember this folder as right split. 
+3. Now press reset button on your left split, one window will be popped out as previous step.
+4. Drag left and right uf2 to respective folders.
+5. Do not disconnect right split yet. 
+6. Remove left split from type c cable. Proceed to `First time bluetooth connection` to connect your board to pc. If successfully connected, you shall able to type without cable now. 
+8. If so, remove the right split from type c cable. Both should be working good now!
+9. If you dont have extra usb c cable...You can do left first, then quickly move to right so the right can sync with left.
+
+</br>
+
+## Common Issues and Troubleshooting
+1. [Mac or Window OS connected but not responding](https://zmk.dev/docs/features/bluetooth#macos-connected-but-not-working), this is working for Bluetooth 5.2 Windows.
+2. Master connected and can type, but not slave refer to [Split Keyboard Halves Unable to Pair](https://zmk.dev/docs/troubleshooting#split-keyboard-halves-unable-to-pair).
+3. You may compile the reset.uf2 yourself or get it from [setting reset.uf2](https://drive.google.com/file/d/1r3C8MBEVbgs5SK3Hc2CyoOIaiAPLB_zp/view?usp=drive_link).
+4. The board is pre-flashed with the [mouse-native.uf2](https://drive.google.com/drive/folders/1EStNUWT_zY0m-xmcMmOKRE_ifORbUOOl). You may always use these to test the board.
+5. No key is registering: have you toggled the power button? (if you have one)
+
+</br>
+
+## Light indicator from Supermini MCU
+1. Blue light: you are connected to usb c and the board is charging
+2. Slight blue light blinking: you are connected to usb c but not connected to battery. Toggle power button to allow charging.
+3. Blink red once: when you toggle the power button on
+4. Flashing red: no firmware flashed to the mcu yet
+
+## Light indicator from Nicenano v2 MCU
+1. Blue light: you are connected to usb c and the board is charging
+2. Blue blinking: bootloader mode, no firmware is loaded
