@@ -1,9 +1,9 @@
 # ZMK Config for Sofle
 This is a quick config key remap for Sofle Zmk.
 
-|![fe42dadb02df898c0cb13808e3faf62](https://github.com/superxc3/zmk_config_sofle/assets/79617315/aa22f713-3a78-4085-93cd-a2e8c42f69b3)|
+|![6001c9e9a6960cdde87ec664cfc5342](https://github.com/superxc3/zmk_config_sofle/assets/79617315/5729c828-9187-4059-9e90-d32503703dfd)|
 |:--:|
-| One of our Sofle variant: Sofle Hybrid with Low profile thumb cfx keycap + MX alpha keys Geekark BOW |
+| Sofle LP niceview: 50g choc brown, niceview, cf plate, customised abs case, cfx keycaps white |
 
 1. Use [Keymap Editor](https://nickcoutsos.github.io/keymap-editor/) to remap the keys.
 2. This is for Sofle with encoders and niceview display.
@@ -15,6 +15,11 @@ Add this to `keymap.c` if you have your own repo. This is to enable niceview. If
 };
 ```
 
+<br>
+
+## Bluetooth Connection Manual
+|![bluetooth](https://github.com/superxc3/zmk_config_sofle/assets/79617315/dd9db3ed-afc0-4a49-bac2-fe3d8bcff494)|
+|:--:|
 <br>
 
 ## Steps
