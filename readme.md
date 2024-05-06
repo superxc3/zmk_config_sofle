@@ -8,6 +8,10 @@ This is a quick config key remap for Sofle Zmk.
 1. Use [Keymap Editor](https://nickcoutsos.github.io/keymap-editor/) to remap the keys.
 2. This is for Sofle with encoders and oled screen. 
 
+## Bluetooth Connection Manual
+|![bluetooth](https://github.com/superxc3/zmk_config_sofle/assets/79617315/dd9db3ed-afc0-4a49-bac2-fe3d8bcff494)|
+|:--:|
+<br>
 
 ## Steps
 
