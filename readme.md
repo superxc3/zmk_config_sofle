@@ -22,6 +22,10 @@ Add this to `keymap.c` if you have your own repo. This is to enable niceview. If
 |:--:|
 <br>
 
+## Niceview display explanation
+|![rerere](https://github.com/superxc3/zmk_config_sofle/assets/79617315/7a996511-bb89-45d0-9dd8-ce7c000174e0)|
+|:--:|
+
 ## Steps
 
 <table>
