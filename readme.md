@@ -111,6 +111,14 @@ You may refer to the [demo](https://drive.google.com/file/d/1_iiBsk6CXnIYhRzzQHD
 
 </br>
 
+## How to charge?
+1. Flip your power button on while charging. If you turn it off means nothing is charged.
+2. You can charge both sides together with usb c cable, not a problem.
+3. You can charge while using it, but we dont encourage to continuously plugging in because battery may degrades.
+4. If you would like to do it in wired mode, you can plug in but flip the power button off. So charging doesnt occur and battery doesnt degrade. 
+
+</br>
+
 ## Common Issues and Troubleshooting
 1. [Mac or Window OS connected but not responding](https://zmk.dev/docs/features/bluetooth#macos-connected-but-not-working), this is working for Bluetooth 5.2 Windows.
 2. Master connected and can type, but not slave refer to [Split Keyboard Halves Unable to Pair](https://zmk.dev/docs/troubleshooting#split-keyboard-halves-unable-to-pair).
@@ -129,3 +137,11 @@ You may refer to the [demo](https://drive.google.com/file/d/1_iiBsk6CXnIYhRzzQHD
 ## Light indicator from Nicenano v2 MCU
 1. Blue light: you are connected to usb c and the board is charging
 2. Blue blinking: bootloader mode, no firmware is loaded
+
+</br>
+
+## Further Troubleshooting Trial and Error
+1. For supermini: when i connect cable to pc, double press it, call out a nicenano explorer to lemme drop the new uf2. If i dont drop new firmware and un-plug it, then re-plug back, the nicenano folder will still pop out. I cant type anything. << this is normal.
+2. For supermini: by referring to above, if i unplug the cable. Flip power button off and on again. My firmware remains. I can type again, but i did not drop in new firmware. When i plug in the usb, no nicenano folder pop out. << this is normal. 
+
+
