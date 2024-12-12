@@ -84,7 +84,7 @@ This is a quick config key remap for Sofle Zmk.
     <td><img src="https://github.com/superxc3/zmk_config_sofle/assets/79617315/f0a6727c-9a2d-40fc-816b-5850a3e2b8ee" alt="Your Image Description" width="600"></td>
   </tr>
   <tr style="background-color:grey;">
-    <td>7. Now choose your repo and correct branch, and you can start mapping. Once it is done click <code>save</code>, wait until it finished compiling then click <code>Latest</code>.</td>
+    <td>7. Now choose your repo and correct branch, and you can start mapping. PLEASE CHOOSE NICEVIEW if yours are build with niceview. If yours oled, stick to MAIN will do. This is an important step many people missed! Once it is done click <code>save</code>, wait until it finished compiling then click <code>Latest</code>.</td>
   </tr>
 </table>
 
